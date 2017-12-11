@@ -1,0 +1,116 @@
+a:hover {
+	text-decoration: none;
+}
+.line1{
+	width: 314px;
+	height: 1px;
+	background: #434343;
+	margin: 52px -3px 0 200px;
+	float: left;
+}
+.line2{
+	width: 314px;
+	height: 1px;
+	background: #434343;
+	margin: 52px 1px 0 3px;
+	float: left;
+}
+.main_header{
+	width: 131px;
+	height: 22px;
+	border: 1px solid #434343;
+	margin: 41px 2px 0 8px;
+	line-height: 22px;
+	text-align: center;
+	float: left;
+}
+.mb {
+	margin-bottom: 70px;
+}
+.show {
+	width: 100%;
+	margin-top: 50px;
+}
+.chuanDish {
+	position: absolute;
+	left: 300px;
+}
+
+.line li{
+	float: left;
+}
+.Xname{
+	width: 134px;
+	height: 24px;
+	margin-left: 80px;
+	display: block;
+	border: 1px solid #434343;
+	font-size: ;
+	color: #030303;
+	text-align: center;
+}
+.two{
+	margin-left: 10px;
+}
+
+.chuan-show {
+	margin-left: 20px;
+	margin-top: 70px;
+}
+.chuan-show li{
+	display: inline-block;
+	text-align: center;
+	margin-left: 58px;
+	
+}
+.chuan-show li img {
+	-webkit-transform: scale(1.0);
+	transform: scale(1.0);
+}
+.chuan-show li img:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: 1s;
+}
+.chuan-show li a {
+	color: #000;
+}
+.show-padding {
+	margin-left: 184px !important;
+}
+.darenComment {
+	margin-top: 100px;
+}
+.comment-main {
+	margin-left: 203px;
+}
+
+.foodName {
+	margin-left: 150px;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+.detail {
+	text-indent: 2em;
+	width: 355px;
+}
+.userComment {
+	margin-top: 30px;
+	width: 300px !important;
+	margin-left: -106px
+}
+.userComment img {
+	margin-bottom: 20px;
+}
+.mb {
+    margin-bottom: 70px;
+}
+.bigShow {
+	height: 158px;
+	overflow: hidden;
+	margin-left: 21px;
+}
+.bigShow img {
+	width: 765px;
+}

@@ -1,0 +1,242 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+.clearfix:after{content:'.';display:block;height:0;clear:both;visibility:hidden} 
+.clearfix{display:inline-block;} 
+.navbar-header img {
+	float: left;
+	margin-top: 10px;
+	margin-left: 110px;
+	margin-right: 140px;
+}
+.navbar-nav {
+    margin-left: 100px !important;
+}
+.input-group {
+	float: left;
+	margin-top: 10px;
+	margin-left: 25px;
+	width: 200px;
+}
+.dropdown-menu {
+    width: 95px;
+    background-color:#323232; 
+    
+}
+.dropdown-menu a {
+  color: #fff !important;  
+}
+/* 轮播 */
+.flexslider {
+    margin-top: 51px;
+    position: relative;
+    width: 100%;
+    height: 530px;
+    overflow: hidden;
+    zoom: 1;
+}
+.flexslider .slides li {
+    width: 100%;
+    height: 100%;
+}
+.flex-direction-nav a {
+    width: 70px;
+    height: 70px;
+    line-height: 99em;
+    overflow: hidden;
+    margin: -35px 0 0;
+    display: block;
+    background: url(../img/prenext.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .3s ease;
+    border-radius: 35px;
+}
+.flex-direction-nav .flex-next {
+    background-position: 0 -70px;
+    right: 0;
+}
+.flex-direction-nav .flex-prev {
+    left: 0;
+}
+.flexslider:hover .flex-next {
+    opacity: 0.8;
+    filter: alpha(opacity=25);
+}
+.flexslider:hover .flex-prev {
+    opacity: 0.8;
+    filter: alpha(opacity=25);
+}
+.flexslider:hover .flex-next:hover,
+.flexslider:hover .flex-prev:hover {
+    opacity: 1;
+    filter: alpha(opacity=50);
+}
+.flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+.flex-control-nav li {
+    margin: 0 2px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+.flex-control-paging li a {
+    background: url(../img/dot.png) no-repeat 0 -16px;
+    display: block;
+    height: 16px;
+    overflow: hidden;
+    text-indent: -99em;
+    width: 16px;
+    cursor: pointer;
+}
+.flex-control-paging li a.flex-active,
+.flex-control-paging li.active a {
+    background-position: 0 0;
+}
+.flexslider .slides a img {
+    width: 100%;
+    height: 530px;
+    display: block;
+}
+/* 菜谱介绍 */
+.dishes {
+	width: 200px;
+	height: 28px;
+	margin: 32px 0 47px 236px;
+	line-height: 28px;
+	text-align: center;
+	font-weight: bold;
+	background: #eea500;
+}
+.dishes-main {
+	text-indent: 2em;
+    margin-left: 115px;
+}
+.foodShow {
+	width: 400px;
+	margin-top: 20px;
+	margin-left: 54px;
+}
+.foodShow li{
+	display: inline-block;
+	margin: 13px;
+    width: 170px;
+    height: 133px;
+    overflow: hidden; 
+}
+.foodShow li img{
+	position: relative;
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+}
+.foodShow li img:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.bigShow {
+	margin-top: 20px;
+	text-align: center;
+}
+.video {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+video {
+	width: 351px;
+	height: 263px;
+	background: #000;
+    margin-left: 12%;
+    margin-top: 35%;
+}
+.video-margin {
+    margin-left: -26px;
+}
+.eight-show li {
+    display: inline-block;
+    margin-right: 70px;
+    margin-top: 70px;
+}
+.eight-ml {
+    margin-left: 120px;                      
+}
+.eight-ml2  {
+    margin-left: 260px;
+}
+.b-p {
+    margin-top: 80px;
+    margin-bottom:70px; 
+}
+.footer {
+	background: #323232;
+	padding: 30px;
+    position: relative;
+}
+.footer-content {
+    position: relative;
+    margin-left: 248px;
+}
+.erweima {
+    position: absolute;
+    top: 50px;
+    left: 25%;
+}
+.footer p {
+	padding-top: 10px;
+	color: #9d9a99;
+    margin-left: 33%;
+}
+.footer p a {
+	color: #9d9a99;
+}
+.footer p a:hover {
+	color: #fefefe;
+}
+.dishes-ml {
+    margin-top: 80px !important;
+    margin-left: 467px !important;
+}
+.eight-show li {
+    position: relative;
+}
+.eight-ml2 li {
+    position: relative;
+}
+.mask{
+    width: 252px;
+    height: 169px;
+    top: 0;
+    background-color: rgba(0,0,0,0.15);
+   /* opacity: 0.5; */   
+    color: #ffffff;
+    position: absolute;
+    display: none;
+}
+.mask p {
+    margin-top: 20px;
+    text-align: center;
+    text-indent: 2em;
+}
+.mask p:first-child {
+    text-indent: 0em !important;
+}
+.ml20 {
+    margin-left: 20px;
+}

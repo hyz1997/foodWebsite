@@ -1,0 +1,74 @@
+.line1{
+	width: 314px;
+	height: 1px;
+	background: #434343;
+	margin: 52px -3px 0 200px;
+	float: left;
+}
+.line2{
+	width: 314px;
+	height: 1px;
+	background: #434343;
+	margin: 52px 1px 0 3px;
+	float: left;
+}
+.main_header{
+	width: 131px;
+	height: 22px;
+	border: 1px solid #434343;
+	margin: 41px 2px 0 8px;
+	line-height: 22px;
+	text-align: center;
+	float: left;
+}
+.show {
+	width: 100%;
+	margin-top: 50px;
+}
+.show1 {
+	background: url('../img/yue-b-1.png');
+	width: 768px;
+	margin-left: 200px;
+	margin-top: 70px;
+}
+.S li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+.S li p {
+	text-align: center;
+}
+.S li a {
+	color: #737373;
+}
+.ml {
+	margin-left: 270px;
+}
+.show2 {
+	background: url('../img/show2.png');
+	width: 768px;
+	margin-left: 200px;
+	margin-top: 50px;
+}
+.show2 ul {
+	width: 509px;
+}
+.ml2 {
+	margin-left: 10px;
+}
+.show3 {
+	margin-left: 200px;
+	margin-top: 50px;
+}
+.show3 li {
+	display: inline-block;	
+	margin-top: 4px;
+}
+.show3 li img {
+	width: 251px;
+	height: 151px;
+}
+.mb {
+    margin-bottom: 70px;
+}

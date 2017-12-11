@@ -1,0 +1,147 @@
+*{margin: 0;padding: 0;}
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+body{
+	color: #868687;
+}
+/*广告大图*/
+.banner{
+	width: 100%;
+	height: 280px;
+}
+.banner img{
+	width: 100%;
+	height: 366.22px;
+}
+.nav_select{
+	width: 980px;
+	height: 80px;
+	margin: 124px auto 30px;
+}
+.nav_select ul{
+	margin-left: 38px;
+}
+.nav_select ul li{
+	width: 60px;
+	height: 80px;
+	margin-left: 48px;
+	float: left;
+}
+.nav_select ul li img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    float: left;
+}
+.nav_select ul li span{
+	width: 60px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.le{
+	text-align: right;
+}
+/*底部*/
+.menuintr{
+	width: 820px;
+	height: 20px;
+	margin: 20px auto;
+	font-weight: bold;
+	font-size: 20px;
+}
+.maindish{
+	width: 820px;
+	height: 310px;
+    margin: 30px auto;
+}
+.mainPic{
+	width: 400px;
+	height: 310px;
+	float: left;
+}
+.mainword{
+	width: 420px;
+	height: 310px;
+	line-height: 0px;
+	float: left;
+}
+.mainword ul li{
+	width: 300px;
+	height: 20px;
+	margin-top: 20px;
+	margin-left: 180px;
+	text-align: left;
+}
+.big{
+	font-weight: bold;
+}
+.step{
+	width: 820px;
+	height: 20px;
+	margin: 20px auto;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+.mainshow{
+	width: 820px;
+	height: 916px;
+	margin: 20px auto;
+}
+.mainshow ul li{
+	width: 410px;
+	height: 183px;
+	margin-top: 30px;
+	float: left;
+}
+.mainshow img{
+	width: 190px;
+	height: 183px;
+	-webkit-transform: scale(1.0);
+	transform: scale(1.0);
+	float: left;
+}
+.mainshow img:hover{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: 1s;
+	transition: 1s;
+}
+.mainshow ul li p{
+	width: 200px;
+	height: 83px;
+	margin: 100px 0 0 20px;
+	text-align: left;
+	word-wrap:break-word; 
+	float: left;
+}
+.footer {
+	background: #323232;
+	padding: 30px;
+    position: relative;
+}
+.footer-content {
+    position: relative;
+    margin-left: 248px;
+}
+.erweima {
+    position: absolute;
+    top: 50px;
+    left: 25%;
+}
+.footer p {
+	padding-top: 10px;
+	color: #9d9a99;
+    margin-left: 33%;
+}
+.footer p a {
+	color: #9d9a99;
+}
+.footer p a:hover {
+	color: #fefefe;
+}

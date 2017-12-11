@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+.banner {
+	width: 100%;
+	height: 366.22px;
+	margin-top: 50px;
+	margin-bottom: 12px;
+}
+hr{
+	width: 306px;
+	float: left;
+	margin-left: 50px;
+}
+/*主要内容*/
+.main_header{
+	width: 131px;
+	height: 22px;
+	border: 1px solid #434343;
+	margin: 28px 0 0 3px;
+	line-height: 22px;
+	text-align: center;
+	float: left;
+}
+.line1{
+	width: 314px;
+	height: 1px;
+	background: #434343;
+	margin: 38px 0 0 285px;
+	float: left;
+}
+.line2{
+	width: 314px;
+	height: 1px;
+	background: #434343;
+	margin: 38px 154px 0 3px;
+	float: left;
+}
+/*菜品介绍*/
+.xiang-show{
+	margin-top: 80px;
+}
+.xiang-show li{
+	font-family: "微软雅黑";
+	font-size: 13px;
+}
+.left{
+	margin-left: 186px;
+}
+p{
+	text-indent: 2em;
+	font-family: "微软雅黑";
+	font-size: 11px;
+}
+#show1{
+	margin-top: 66px;
+}
+#show2, .#show4{
+	width: 800px;
+	float: left;
+}
+.show2_node, .show4_node{
+	float: left;
+	width: 350px;
+}
+.show2_pic, .show4_pic{
+	float: left;
+	margin-left: 50px;
+}
+/*#show4{
+	margin-bottom: 20px;
+}*/
+/*图片动画效果*/
+.xiang-show img{
+	-webkit-transform: scale(1.0);
+}
+.xiang-show img:hover{
+	-webkit-transform: scale(1.2);
+	-webkit-transition: 0.5s;
+}
+.main{
+	height: 50px;
+}
+.knowmore_header{
+	width: 131px;
+	height: 22px;
+	border: 1px solid #434343;
+	margin: 61px 0 0 3px;
+	line-height: 22px;
+	text-align: center;
+	float: left;
+}
+.line3{
+	width: 314px;
+	height: 1px;
+	background: #434343;
+	margin: 72px 0 0 285px;
+	float: left;
+}
+.line4{
+	width: 314px;
+	height: 1px;
+	background: #434343;
+	margin: 72px 154px 0 3px;
+	float: left;
+}
+/* .footer {
+	background: #323232;
+	text-align: center;
+	padding: 30px;
+	margin-top: 90px;
+} */
+.footer p {
+	padding-top: 30px;
+	color: #9d9a99;
+}
+.footer p a {
+	color: #9d9a99;
+}
+.footer p a:hover {
+	color: #fefefe;
+}
+.footer {
+	margin-top: 80px;
+	width: 100%;
+	background-color: #466f6a;
+	height: 259px;
+}
+.footer1 {
+	float: left;
+	width: 409px;
+	height: 218px;
+	overflow: hidden;
+}
+.footer2 {
+	float: left;
+	margin-top: 210px;
+	margin-left: 560px;
+}
